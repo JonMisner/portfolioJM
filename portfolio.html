@@ -7,12 +7,12 @@
     <meta name="Description" content="Enter your description here"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Jon Misner Portfolio</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Jon Misner</a>
+        <a class="navbar-brand" href="#">JM</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,22 +32,58 @@
     </nav> 
     
     <div class="container">
-     <main class="jumbotron mt-3">
+     <main class="jumbotron mt-3" id="portfolioContainer">
         <h1 class="display-4">Portfolio</h1>
         <hr class="my-4">
      
             <section class="row">
               <div class="col-4">
-                <img src="Assets/trivia.jpg" class="img-fluid" alt="Trivia Game">
-                <h6>Trivia Game (Coming Soon)</h6>
+                <div class="flip-card container-fluid">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <h1 class="cardTitle">Day Planner</h1>
+                      <img src="./assets/images/plannerPhoto.png" alt="planner" style="width:100%;height:60%;">
+                    </div>
+                    <div class="flip-card-back">
+                      <a href="https://jonmisner.github.io/fifthHW/" target="_blank">
+                        <h1 style="color:white">Today's Schedule</h1> 
+                        <img src="./assets/images/workDayPlanner.png" alt="planner" style="width:100%;height:60%;">
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="col-4">
-                <img src="Assets/widget.jpg" class="img-fluid mx-auto" alt="Info widget">
-                <h6>Info Widget (Coming Soon)</h6>
+                <div class="flip-card container-fluid">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <h1 class="cardTitle">Quiz Game</h1>
+                      <img src="./assets/images/trivia.jpg" alt="Trivia" style="width:100%;height:60%;">
+                    </div>
+                    <div class="flip-card-back">
+                      <a href="https://jonmisner.github.io/JS-Quiz/" target="_blank">
+                        <h1 style="color:white">JS Mini Quiz</h1> 
+                        <img src="./assets/images/jsTrivia.png" alt="JS Trivia" style="width:100%;height:60%;">
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <div class="col-4">
-                <img src="Assets/wordGames.jpg" class="img-fluid" alt="Word Game">
-                <h6>Word Game (Coming Soon)</h6>
+                <div class="flip-card container-fluid">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <h1 class="cardTitle">Stock App</h1>
+                      <img src="./assets/images/stockPhoto.jpeg" alt="stockPhoto" style="width:100%;height:60%;">
+                    </div>
+                    <div class="flip-card-back">
+                      <a href="https://jonmisner.github.io/Informed_Trades/" target="_blank">
+                        <h1 style="color:white">Informed Trades</h1> 
+                        <img src="./assets/images/informedTrades.png" alt="Informed Trades" style="width:100%;height:60%;">
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </section>
           
