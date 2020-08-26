@@ -34,7 +34,20 @@ body {
 
 .subtitle {
     color: lightseagreen;
-    margin-left: .1em;
+    margin-left: .2em;
+} 
+
+.contactRow {
+    margin: 1.2em;
+}
+
+#resume {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5em;
+    color: lightseagreen;
+    font-weight: 600;
+    font-size: 35px;
 }
 
 /* card flipp animation */
