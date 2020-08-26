@@ -6,7 +6,7 @@
 # Tech Used
 Bootstrap, HTML, CSS
 
-<img src="./assets/portfoliogif.gif" style="width: 100%;">
+<img src="./assets/portfoliogif2.gif" style="width: 100%;">
 
 Created by: Jon Misner
 
