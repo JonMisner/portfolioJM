@@ -6,7 +6,8 @@
 # Tech Used
 Bootstrap, HTML, CSS
 
-<img src="https://drive.google.com/file/d/1mwTaMJLMe1tTstE17-MpY4ARRjMEoj8m/view?usp=sharing">
+<img src="./assets/portfoliogif.gif" style="width: 100%;">
 
 Created by: Jon Misner
+
    with help from: Joseph Young
