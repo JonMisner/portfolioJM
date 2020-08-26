@@ -6,4 +6,7 @@
 # Tech Used
 Bootstrap, HTML, CSS
 
-<img src="https://drive.google.com/file/d/1fxgCBu01XIcTlFoaic47FvP8wOv11JTA/view?usp=sharing">
+<img src="https://drive.google.com/file/d/1mwTaMJLMe1tTstE17-MpY4ARRjMEoj8m/view?usp=sharing">
+
+Created by: Jon Misner
+   with help from: Joseph Young
